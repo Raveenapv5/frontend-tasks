@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Application Form</title>
+</head>
+<body>
+
+    <form action="#" method="post">
+        <table border="0" cellpadding="5" cellspacing="2">
+           
+            <tr>
+                <td>FullName</td>
+                <td>
+                    <input type="text" name="fullname" maxlength="20" >
+                    (max 20 char a-z and A-Z)
+                </td>
+            </tr>
+
+           
+            <tr>
+                <td>Lastname</td>
+                <td>
+                    <input type="text" name="lastname" maxlength="20">
+                   (max 20 char a-z and A-Z)
+                </td>
+            </tr>
+
+           
+            <tr>
+                <td>Date of Birth</td>
+                <td>
+                    
+                    <input type="date" name="dob" >
+                    
+                     
+                    
+                </td>
+            </tr>
+
+          
+            <tr>
+                <td>GENDER</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">female</label>
+                </td>
+            </tr>
+
+           
+            <tr>
+                <td>EMAIL ID</td>
+                <td><input type="email" name="email_id"></td>
+            </tr>
+
+         
+            <tr>
+                <td>MOBILE<br>NO</td>
+                <td><input type="tel" name="mobile_no"></td>
+            </tr>
+
+         
+            <tr>
+                <td>ADDRESS</td>
+                <td><textarea name="address" rows="5" cols="30"></textarea></td>
+            </tr>
+
+           
+            <tr>
+                <td>CITY</td>
+                <td><input type="text" name="city"></td>
+            </tr>
+
+          
+            <tr>
+                <td>PINCODE</td>
+                <td>
+                    <input type="text" name="pincode" maxlength="6" >
+                    (6 digit number)6
+                </td>
+            </tr>
+
+          
+            <tr>
+                <td>EMAIL ID</td>
+                <td><input type="email" name="email_id_repeat"></td>
+            </tr>
+
+          
+            <tr>
+                <td>STATE</td>
+                <td><input type="text" name="state"></td>
+            </tr>
+
+           
+            <tr>
+                <td>COUNTRY</td>
+                <td><input type="text" name="country"></td>
+            </tr>
+
+         
+            <tr>
+                <td>HOBBIES</td>
+                <td>
+                    <input type="checkbox" id="drawing" name="hobbies" value="Drawing">
+                    <label for="drawing">Drawing</label>
+                    <input type="checkbox" id="singing" name="hobbies" value="Singing">
+                    <label for="singing">Singing</label>
+                    <input type="checkbox" id="dancing" name="hobbies" value="Dancing">
+                    <label for="dancing">Dancing</label><br>
+                    <input type="checkbox" id="other" name="hobbies" value="Other">
+                    <label for="other">Other</label>
+                    <input type="text" name="hobbies_other" style="width: 100px;">
+                </td>
+            </tr>
+        </table>
+
+        
+        <br>
+        <table border="1" cellspacing="0" cellpadding="4" >
+            <tr>
+                <th>sl.no</th>
+                <th>Examonation</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of pass</th>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td><input type="text" name="exam1"></td>
+                <td><input type="text" name="board1"></td>
+                <td><input type="text" name="percent1"></td>
+                <td><input type="text" name="year1" ></td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td><input type="text" name="exam2"></td>
+                <td><input type="text" name="board2"></td>
+                <td><input type="text" name="percent2"></td>
+                <td><input type="text" name="year2" ></td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td><input type="text" name="exam3"></td>
+                <td><input type="text" name="board3"></td>
+                <td><input type="text" name="percent3" ></td>
+                <td><input type="text" name="year3" ></td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td><input type="text" name="exam4"></td>
+                <td><input type="text" name="board4"></td>
+                <td><input type="text" name="percent4" ></td>
+                <td><input type="text" name="year4" ></td>
+            </tr>
+        </table>
+
+        
+        <p>
+            COURSES APPLIED FOR
+            <input type="checkbox" id="bca" name="course" value="BCA">
+            <label for="bca">BCA</label>
+            <input type="checkbox" id="bcom" name="course" value="B.com">
+            <label for="bcom">B.com</label>
+            <input type="checkbox" id="bsc" name="course" value="B.sc">
+            <label for="bsc">B.sc</label>
+            <input type="checkbox" id="ba" name="course" value="B.A">
+            <label for="ba">B.A</label>
+        </p>
+
+        
+        <p>
+            <input type="submit" value="submit"/>
+            <input type="reset" value="reset"/>
+        </p>
+    </form>
+
+</body>
+</html>
+
+
