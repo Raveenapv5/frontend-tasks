@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    button:hover{
+        background-color: rgb(3, 92, 95);
+        color: white;
+    }
+    button:active{
+        background-color: rgb(145, 138, 9);
+        color: rgb(230, 228, 229);
+    }
+    input:focus{
+        background-color:aquamarine;
+        color:brown;
+    }
+    li:first-child{
+        color: rgb(3, 92, 95);
+        font-size: 20px;
+    }
+    li:last-child{
+        color: rgb(168, 92, 16);
+        font-size: 20px;
+    }
+    li:nth-child(2){
+        color: rgb(135, 37, 109);
+        font-size: 20px;
+    }
+    li:nth-child(3){
+        color: rgb(177, 173, 94);
+        font-size: 20px;
+    }
+    label{
+        color: rgb(95, 3, 11);
+        font-size: 20px;
+    }
+    input:checked+label{
+        background-color: rgb(3, 92, 95);
+        color: white;
+    }
+</style>
+<body>
+    <label>Name:</label>
+    <input type="text" placeholder="Enter your name">
+    <button>Submit</button>]
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+    </ul>
+    <button disabled>Disabled button</button>
+    <input type="checkbox" id="yes" checked>
+    <label id="yes">YES</label>
+    <input type="checkbox" id="no">
+    <label id="no">NO</label>
+    
+</body>
+</html>
